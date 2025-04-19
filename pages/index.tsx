@@ -28,7 +28,10 @@ export default function KhanCatering() {
               <p className="text-lg max-w-2xl mx-auto text-clay">
                 South Indian, North Indian, and Indo-Chinese dishes — handcrafted with flavor, elegance, and love.
               </p>
-              <button className="mt-6 bg-curry text-white px-6 py-3 text-lg rounded-full hover:bg-[#2c4d34] transition">
+              <button
+  onClick={() => setActivePage('booking')}
+  className="mt-6 bg-curry text-white px-6 py-3 text-lg rounded-full hover:bg-[#2c4d34] transition"
+>
                 Book Your Event <ArrowRight className="inline ml-2 w-5 h-5" />
               </button>
             </div>
