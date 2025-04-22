@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Font + Smooth Scroll */
+body {
+  @apply bg-charcoal text-sandstone font-sans;
+  scroll-behavior: smooth;
+}
+
+/* Headings Styling */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-semibold text-saffron;
+}
+
+/* Links */
+a {
+  @apply text-curry hover:underline transition duration-300;
+}
+
+/* Buttons */
+button {
+  @apply bg-curry text-white rounded px-4 py-2 hover:bg-saffron transition-all;
+}
+
+/* Images */
+img {
+  @apply rounded-lg shadow-md;
+}
+
+/* Lists */
+ul {
+  @apply list-disc ml-6;
+}
