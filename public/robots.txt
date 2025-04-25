@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /who-we-are
+Disallow: /meet-our-team
+Allow: /
+
+Sitemap: https://www.khancatering.co.nz/sitemap.xml
